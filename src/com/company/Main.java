@@ -93,6 +93,8 @@ public class Main {
             if (hm.containsKey(letter)) {
                 selection = String.valueOf(hm.get(letter).charAt(rand.nextInt(hm.get(letter).length())));
                 sb.append(selection);
+            } else {
+                sb.append(letter);
             }
 
         }
